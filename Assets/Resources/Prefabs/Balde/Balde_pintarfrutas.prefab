@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -220988383139373454}
   m_Layer: 5
   m_Name: Balde_pintarfrutas
-  m_TagString: uvaroxo
+  m_TagString: laranjalaranja
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d5613324fac34c844a8dd91f4f12cb01, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f9fd031b8c6624caff5fed42bc5e64, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
