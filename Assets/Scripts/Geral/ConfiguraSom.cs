@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 public class ConfiguraSom : MonoBehaviour
@@ -19,8 +20,8 @@ public class ConfiguraSom : MonoBehaviour
     const string PINTARFRUTAPATH = "Sounds/PintarFrutas/sound_pintarfrutas";
     const string SOMPASSARFASE = "Sounds/Acerto/sound_acertomuitobem";
 
-    const float OTH_VOLUME = 0.5f;
-    const float ACERTO_VOLUME = 1f;
+    const float ACERTO_VOLUME = 0.5f;
+    const float OTH_VOLUME = 1f;
 
 
     private void Start()
@@ -32,7 +33,7 @@ public class ConfiguraSom : MonoBehaviour
 
 
         aSrc_sonsClick = gameObject.AddComponent<AudioSource>();
-        aSrc_sonsClick.volume = 0.5f;
+        aSrc_sonsClick.volume = OTH_VOLUME;
         aSrc_sonsClick.playOnAwake = false;
 
     }
